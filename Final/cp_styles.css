@@ -1,0 +1,74 @@
+/*
+   New Perspectives on HTML and CSS
+   Tutorial 4
+   Tutorial Case
+
+   Cycle Pathology Style Sheet
+   Author: 
+   Date:   
+
+   Filename:         cp_styles.css
+   Supporting Files: atwood.png, bike_bg.png, rawlings.png
+
+*/
+
+/* Styles for the Page Body */
+body {
+	background-color: black;
+	background-image: url(bike_bg.png);
+	background-position: left top;
+	background-repeat: no-repeat;
+	width: 95%;
+	min-width: 1000px;
+	max-width: 1400px;
+}
+
+/* General Navigation List */
+nav a {
+	text-decoration: none;
+}
+
+nav.horizontalNAV
+{
+	margin-left: 33%;
+	width: 66%;
+}
+
+nav.horizontalNAV li {
+	font-size: 87.5%;
+	float: left;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 0px;
+	padding-right: 0px;
+	text-align: center;
+	width: 20%;
+}
+nav.horizontalNAV li a {
+	color: rgb(255, 255, 99);
+}
+
+nav.horizontalNAV li a:hover {
+	color: white;
+}
+
+#president {
+	background-color: rgb( 105, 96, 87 );
+	background-color: rgba( 105, 96, 87, 0.3 );
+	clear: left;
+	float: left;
+	margin-left: 33%;
+	width: 40%;
+}
+
+#president h1 {
+	font-family: 'Lucida Calligraphy', 'Apple Chancery', cursive;
+	font-size: 158%;
+	font-weight: bold;
+	margin-left: 10px 0px 0px 10px;
+}
+
+#president h2 {
+	font-size: 105%;
+	margin: 0px 0px 10px 15px;
+}
