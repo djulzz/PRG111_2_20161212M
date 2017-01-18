@@ -37,10 +37,11 @@ nav.horizontalNAV
 nav.horizontalNAV li {
 	font-size: 87.5%;
 	float: left;
-	padding-top: 15px;
+/*	padding-top: 15px;
 	padding-bottom: 15px;
 	padding-left: 0px;
-	padding-right: 0px;
+	padding-right: 0px;*/
+	padding: 15px 0px;
 	text-align: center;
 	width: 20%;
 }
@@ -48,17 +49,48 @@ nav.horizontalNAV li a {
 	color: rgb(255, 255, 99);
 }
 
+nav.verticalNAV {
+	float: left;
+	margin-left: 3%;
+	width: 23%;
+}
+
 nav.horizontalNAV li a:hover {
 	color: white;
 }
 
+nav.verticalNAV a {
+/*	background-color: */
+	border-bottom: 1px solid rgb( 182, 182, 92 );
+	color: rgb(182, 182, 92 );
+	display: block;
+	line-height: 2.2em;
+}
+
+nav.verticalNAV a:hover {
+	background-color: rgb(105, 96, 87 );
+	background-color: rgba(255, 255, 255, 0.3 );
+}
+
+
 #president {
 	background-color: rgb( 105, 96, 87 );
 	background-color: rgba( 105, 96, 87, 0.3 );
+	background-image: url( atwood.png );
+	background-position: bottom right;
+	background-repeat: no-repeat;
+	-o-background-size: 40%;
+	-moz-background-size: 40%;
+	-webkit-background-size: 40%;
+	background-size: 40%;
 	clear: left;
 	float: left;
 	margin-left: 33%;
 	width: 40%;
+
+	-moz-border-radius: 30px;
+	-webkit-border-radius: 30px;
+	border-radius: 30px;
 }
 
 #president h1 {
@@ -72,3 +104,44 @@ nav.horizontalNAV li a:hover {
 	font-size: 105%;
 	margin: 0px 0px 10px 15px;
 }
+
+#president p {
+	font-size: 87.5%;
+	margin-top: 0px; /* we start north */
+	margin-right: 40%;
+	margin-bottom: 20px;
+	margin-left: 15px;
+}
+
+* {
+	outline: 1px solid red;
+}
+
+/* Story section styles */
+#story {
+	background-color: gray;
+	background-color: rgba( 255, 255, 255, 0.8 );
+	clear: left;
+	float: left;
+	margin: 20px 0px 0px 33%;
+	width: 66%;
+}
+
+/* Article styles */
+
+#story article {
+	border-right: 1px solid black;
+	float: left;
+	width: 50%;
+}
+
+/* Figure box styles */
+#story figure {
+	float : left;
+	width: 49%;
+}
+
+/*Leaving Off at p. 276*/
+/*#story article hgroup {
+	background: rg;
+}*/
