@@ -31,9 +31,9 @@ body * {
 }
 
 /* Temporarily hide the page sections */
-nav.horizontalNAV, #president, nav.verticalNAV, #story, header, aside, footer {
-/*	display: none;*/
-}
+/*nav.horizontalNAV, #president, nav.verticalNAV, #story, aside, footer {
+	display: none;
+}*/
 
 
 
